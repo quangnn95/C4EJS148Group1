@@ -533,7 +533,8 @@ function logOut() {
   }
   localStorage.setItem('accounts', JSON.stringify(accounts));
   localStorage.removeItem('currentuser');
-  window.location = "/";
+  // window.location = "/";
+  window.location.href = "/WebBanHangVyFood/"
 }
 
 function checkAdmin() {
